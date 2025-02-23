@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff995cb0b8a1fe45922cb961ba6f236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 6
   rb: {fileID: 2029162191}
   other: {fileID: 2029162189}
 --- !u!50 &2029162191
@@ -1730,7 +1730,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &2029162192
 CircleCollider2D:
   m_ObjectHideFlags: 0
