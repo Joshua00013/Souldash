@@ -5,6 +5,7 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed;
     private Transform player;
     public Rigidbody2D rb;
+    public Collider2D other;
     private Vector2 movement;
     private bool isPlayernear = false;
 
